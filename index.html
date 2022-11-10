@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="box">
+        <div class="fields">
+            <label>Enter your budget</label> <br>
+            <input type="number" id="budget"><br><br>
+            <button onclick="user_budget()">Submit Budget</button>
+        </div>
+
+        <div class="fields">
+            <label>Enter your expense amount</label> <br>
+            <input type="number" id="expense"><br><br>
+            <button onclick="calculate()">Submit Expense</button>
+        </div>
+    </div>
+
+    <div class="box">
+        <div>
+        <p>Your remaining balance:
+        <span id="pocket"></span></p>
+        </div>
+
+        <div>
+        <p>Expenses spent:
+        <span id="spent"></span></p>
+        </div>
+    </div>
+</body>
+</html>

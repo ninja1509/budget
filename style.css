@@ -1,0 +1,34 @@
+/* *{
+    border: solid;
+   
+} */
+
+.box {
+    align-items: 10%;
+    padding: 10px;
+}
+
+.fields {
+    border: solid;
+    padding: 40px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 50px;
+    background-color: skyblue;
+    }
+
+
+
+input{
+    margin-top: 5px;
+}
+
+p, span {
+    width:fit-content;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+span{
+    color: darkblue;
+}
